@@ -7,3 +7,18 @@
     <h1>안녕하세요!</h1>
   </body>
 </html>
+<div style="border: 1px solid;">
+  <h1>1</h1>
+</div>
+<div style="border: 1px dashed;">
+  <h2>2</h2>
+</div>
+<div style="border: 1px dotted;">
+  <h3>3</h3>
+</div>
+<div style="border: 1px double;">
+  <h4>4</h4>
+</div>
+<div style="border: 1px groove;">
+  <h5>5</h5>
+</div>
