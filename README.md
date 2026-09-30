@@ -28,20 +28,16 @@
   </div>
 </div>
 
-/* 일부러 극단적으로 키운 값 */
-.box {
-  width: 120px;
-  padding: 40px;              /* 매우 두꺼운 안쪽 여백 */
-  border: 10px dashed #FF6B57; /* 두껍고 색이 튀는 테두리 */
-  margin: 50px;              /* 매우 넓은 바깥 여백 */
-  background: #FFF3E9;       /* padding 영역 색 */
-}
-.content {
-  background: #0EA5C4;       /* content 영역 색 */
-  color: #fff;
-  text-align: center;
-  padding: 14px 0;
-}
-.outer {
-  background: #F1F5FB;       /* margin 영역은 이 배경이 그대로 비쳐 보임 */
+<!-- HTML: 박스 3개를 감싸는 부모 -->
+<div class="container">
+  <div>박스1</div>
+  <div>박스2</div>
+  <div>박스3</div>
+</div>
+
+/* CSS: 부모에게 flex 지시 */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
