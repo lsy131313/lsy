@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index.html</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <h1>이시연</h1>
+    <p>2601966 이시연 입니다 한양여자대학교 빅데이터과에 재학중 입니다.</p>
+
+    <ul class="container">
+        <li>강아지</li>
+        <li>노래듣기</li>
+        <li>집</li>
+    </ul>
+
+    
+    <a href="about.html">about.html</a>
+
+
+</body>
+
+</html>
